@@ -3,7 +3,7 @@ import { Share2, Copy, CheckCircle, ArrowRight, Car } from 'lucide-react';
 import { useState } from 'react';
 
 const SHARE_URL = 'https://www.myparkingpal.app/?utm_source=friend&utm_medium=share&utm_campaign=waitlist_referral';
-const SHARE_TEXT = 'LB drivers: stop $70 street-sweeping tickets. Join the MyParkingPal waitlist 👇';
+const SHARE_TEXT = 'Hey, I joined this waitlist for a new app that reminds you before street sweeping in LB. Could save us $70 tickets 😅';
 
 export default function SharePage() {
   const [copied, setCopied] = useState(false);
