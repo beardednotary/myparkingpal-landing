@@ -104,7 +104,6 @@ const LandingPage = () => {
       <Head>
         <title>MyParkingPal - Stop Street Sweeping Tickets in Long Beach</title>
         <meta name="description" content="Smart street sweeping reminders for Long Beach. Stop getting $70 tickets. Built by a Long Beach driver." />
-        <link href="https://cdn.tailwindcss.com" rel="stylesheet" />
       </Head>
       <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100">
         {/* Hero Section */}
