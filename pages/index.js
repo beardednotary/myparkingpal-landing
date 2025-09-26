@@ -288,13 +288,13 @@ const LandingPage = () => {
               </a>
               
               <a 
-                href="https://x.com/LongBeachPW" 
+                href="https://x.com/LBPublicWorks" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="flex items-center gap-3 bg-white/70 backdrop-blur px-6 py-4 rounded-xl shadow-lg hover:shadow-xl transition-all duration-200 border border-gray-200/50 group"
               >
                 <ExternalLink className="w-5 h-5 text-emerald-600 group-hover:scale-110 transition-transform" />
-                <span className="text-gray-700 font-medium">@LongBeachPW on X</span>
+                <span className="text-gray-700 font-medium">@LBPublicWorks on X</span>
               </a>
             </div>
           </div>
