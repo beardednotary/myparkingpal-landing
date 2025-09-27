@@ -4,7 +4,7 @@ import { Car, Shield, MapPin, Bell, CheckCircle, ArrowRight, Phone, ExternalLink
 
 const SITE_URL = 'https://www.myparkingpal.app';
 const OG_IMAGE = `${SITE_URL}/share-card.png`;
-const OG_TITLE = 'Never Miss Street Sweeping Again';
+const OG_TITLE = 'Avoid $70+ Street Sweeping Tickets';
 const OG_DESC =
   'Long Beach drivers save $70+ per ticket. Join the MyParkingPal waitlist today.';
 
