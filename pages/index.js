@@ -2,6 +2,12 @@ import React, { useState } from 'react';
 import Head from 'next/head';
 import { Car, Shield, MapPin, Bell, CheckCircle, ArrowRight, Phone, ExternalLink, Star } from 'lucide-react';
 
+const SITE_URL = 'https://www.myparkingpal.app';
+const OG_IMAGE = `${SITE_URL}/share-card.png`;
+const OG_TITLE = 'Never Miss Street Sweeping Again';
+const OG_DESC =
+  'Long Beach drivers save $70+ per ticket. Join the MyParkingPal waitlist today.';
+
 const LandingPage = () => {
   const [email, setEmail] = useState('');
   const [isSubmitted, setIsSubmitted] = useState(false);
@@ -33,7 +39,6 @@ const LandingPage = () => {
       setLoading(false);
     }
   };
-  
 
   const EmailForm = ({ className = "" }) => (
     <form
@@ -150,7 +155,29 @@ const LandingPage = () => {
       <Head>
         <title>MyParkingPal - Stop Street Sweeping Tickets in Long Beach</title>
         <meta name="description" content="Smart street sweeping reminders for Long Beach. Stop getting $70 tickets. Built by a Long Beach driver." />
+
+        {/* Canonical */}
+        <link rel="canonical" href={SITE_URL} />
+
+        {/* Open Graph for rich link previews */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={SITE_URL} />
+        <meta property="og:title" content={OG_TITLE} />
+        <meta property="og:description" content={OG_DESC} />
+        <meta property="og:image" content={OG_IMAGE} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+
+        {/* Twitter Card */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={OG_TITLE} />
+        <meta name="twitter:description" content={OG_DESC} />
+        <meta name="twitter:image" content={OG_IMAGE} />
+
+        {/* Theming (optional polish) */}
+        <meta name="theme-color" content="#10b981" />
       </Head>
+
       <div className="min-h-screen bg-gradient-to-br from-gray-50 via-white to-gray-100">
         {/* Hero Section */}
         <div className="relative overflow-hidden">
