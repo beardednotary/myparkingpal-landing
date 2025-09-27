@@ -161,6 +161,7 @@ const LandingPage = () => {
 
         {/* Open Graph for rich link previews */}
         <meta property="og:type" content="website" />
+        <meta property="og:site_name" content="MyParkingPal" />
         <meta property="og:url" content={SITE_URL} />
         <meta property="og:title" content={OG_TITLE} />
         <meta property="og:description" content={OG_DESC} />
