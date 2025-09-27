@@ -33,6 +33,7 @@ const LandingPage = () => {
       setLoading(false);
     }
   };
+  
 
   const EmailForm = ({ className = "" }) => (
     <form
